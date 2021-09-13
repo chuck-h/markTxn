@@ -17,7 +17,7 @@ cleos -u https://api.telos.caleos.io push transaction '{
 
 <h1 class="clause">Effect</h1>
 
-This contract leaves only a "journal" of labeling events on the blockchain. The contract contains no database which can be queried about badge assignments. (The only table maintained by the contract is a list of known category names.)
+This contract leaves only a "journal" of labeling events on the blockchain. The contract contains no database which can be queried about annotations. (The only table maintained by the contract is a list of known category names.)
 
 <h1 class="clause">Use with history functions</h1>
 
