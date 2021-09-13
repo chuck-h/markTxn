@@ -1,4 +1,4 @@
---- microBadge Project ---
+--- markTxn Project ---
 
  - How to Build -
    - cd to 'build' directory
