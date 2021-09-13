@@ -24,7 +24,7 @@ icon:
 ---
 spec_version: "0.1.0"
 title: register
-summary: '{{register}} removes an entry from the list of acceptable categories'
+summary: '{{unregister}} removes an entry from the list of acceptable categories'
 icon: 
 ---
 
