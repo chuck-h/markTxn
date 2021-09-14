@@ -1,14 +1,14 @@
-# microBadge
+# markTxn
 
-See https://github.com/chuck-h/microBadge/blob/main/microBadge/ricardian/microBadge.clauses.md
+See https://github.com/chuck-h/markTxn/blob/main/markTxn/ricardian/markTxn.clauses.md
 
 A typical contract call:
 ```
 {
   "actions":[
     {
-      "account":"badgemaster1",
-      "name":"init",
+      "account":"marksaccount",
+      "name":"mark",
       "authorization":[
         {
           "actor":"...........1",
@@ -16,10 +16,11 @@ A typical contract call:
         }
       ],
       "data":{
-        "issuer":"agrauthority",
-        "badge":"permaculturist",
-        "badgee":"farmerthomas",
-        "memo":"a good guy"
+        "txn":"1c1a9564ba1d24bd2859663c6d5b7942d461358ecaba5c746065096659fdbc5e
+",
+        "category":"services",
+        "confidence":"100",
+        "memo":"haircut"
       }
     }
   ]
