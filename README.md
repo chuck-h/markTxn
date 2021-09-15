@@ -1,5 +1,7 @@
 # markTxn
 
+*Note* The code here uses the `KV Map` feature which was introduced in eosio nodeos v2.1. As of this writing it does not run on the Telos mainnet or public testnet, as these are running v2.0.
+
 See https://github.com/chuck-h/markTxn/blob/main/markTxn/ricardian/markTxn.clauses.md
 
 A typical contract call:
@@ -12,7 +14,7 @@ A typical contract call:
       "authorization":[
         {
           "actor":"...........1",
-          "permission":"active"
+          "permission":"...........2"
         }
       ],
       "data":{
@@ -20,6 +22,7 @@ A typical contract call:
 ",
         "category":"services",
         "confidence":"100",
+        "fraction":"100",
         "memo":"haircut"
       }
     }
