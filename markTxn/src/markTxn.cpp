@@ -2,7 +2,7 @@
 
 
 [[eosio::action]]
-void markTxn::mark( const checksum256 txn, const string category, const uint8_t confidence, const float fraction, const string memo ) {
+void markTxn::mark( const checksum256 txn, const string category, const uint8_t confidence, const float fraction, const string memo, const string jsonmemo ) {
     auto idx = category_table.get_index<"secid"_n>();
     auto hash = eosio::sha256( category.c_str(), category.length());
     auto itr = idx.find(hash);

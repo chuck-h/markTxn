@@ -22,7 +22,7 @@ class [[eosio::contract]] markTxn : public contract {
          }
 
       [[eosio::action]]
-      void mark( const checksum256 txn, const string category, const uint8_t confidence, const float fraction, const string memo );
+      void mark( const checksum256 txn, const string category, const uint8_t confidence, const float fraction, const string memo, const string jsonmemo );
 
       [[eosio::action]]
       void addcategory( const string category, name creator, const string memo );
